@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "QR Code Autofill Extension",
+  "version": "1.0",
+  "permissions": [
+      "scripting",
+      "activeTab",
+      "downloads",
+      "storage"
+  ],
+  "host_permissions": [
+      "https://qrsmartcard.co.in/*"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "content_scripts": [
+      {
+          "matches": ["https://qrsmartcard.co.in/*"],
+          "js": ["content.js"]
+      }
+  ],
+  "web_accessible_resources": [
+      {
+          "resources": ["tesseract.min.js"],
+          "matches": ["https://qrsmartcard.co.in/*"]
+      }
+  ]
+}
