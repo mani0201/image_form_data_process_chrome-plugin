@@ -48,6 +48,8 @@ This workflow eliminates repetitive manual typing and speeds up data‑entry ope
 - Reducing manual workload in admin or back‑office tasks
 - Any workflow where text is locked inside images
 
+<img width="280" height="142" alt="image" src="https://github.com/user-attachments/assets/05c9e4d2-5dff-4011-bb45-6dfea5583277" />
+
 🤝 Contributions
 Pull requests and feature suggestions are welcome. If you have ideas to improve accuracy, add new automation flows, or enhance the UI, feel free to open an issue.
 
